@@ -1,0 +1,183 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:burlywood;
+    padding: 0px;
+    margin: 0px;
+}
+#main_menu{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-around;
+}
+#but{
+    display: flex;
+    border-radius: 50px;
+    background-color: green;
+    border-color:gray;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+}
+#but:hover{
+    cursor:pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+#sound{
+    display: flex;
+    border-radius: 50px;
+    background-color: green;
+    border-color:gray;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+}
+#sound:hover{
+    cursor:pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+.main{
+    display: flex;
+    width: 700px;
+    height: 300px;
+    margin-top: 20px;
+    visibility: hidden;
+}
+#player{
+    background-color: rgb(85, 6, 6);
+    width: 600px;
+    height: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border-color:gray;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#comp{
+    background-color: blue;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+    border-color: gray;
+    border-style: solid;
+    border-width: 5px;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+#pc{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-right: 246px;
+    visibility: hidden;
+}
+#b1{
+    border-radius: 30px;
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    border-color: orange;
+    background-color:brown;
+    border-width: 5px;
+}
+#b2{
+    border-radius: 30px;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-color: orange;
+    border-width: 5px;
+}
+#b3{
+    border-radius: 30px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-color: orange;
+    background-color: gray;
+    border-width: 5px;
+}
+#b1:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+#b2:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+#b3:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+/*player choice msg*/
+#plm1{
+    font-size:20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    visibility: hidden;
+}
+/*restart button*/
+#rg{
+    display: flex;
+    border-radius: 50px;
+    background-color: yellow;
+    border-color:gray;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 80px;
+    visibility: hidden;
+}
+#rg:hover{
+    cursor: pointer;
+    border-radius: 10px;
+    border-style: solid;
+}
+/*game start/stop msg*/
+#gs{ 
+    display: flex;
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+/*Result msg*/
+#res{
+    padding: 20px;
+    background-color:black;
+    color: gray;
+    font-size: 30px;
+    height: 300px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+}
+#arg{
+    visibility: hidden;
+}

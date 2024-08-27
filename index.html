@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Stone Paper Scissor</title>
+</head>
+<body>
+<div id="main_menu">
+    <abbr title="Start / Stop Game"><button id="but" onclick="stg()"><img id="bn1" src="play-solid.svg" width="50px"></button></abbr>
+    <abbr title="Restart Game" id="arg"><button id="rg" onclick="restart()"><img src="repeat-solid.svg" width="50px"></button></abbr>
+    <abbr title="Sound"><button id="sound" onclick="volume()"><img id="bn3" src="volume-high-solid.svg" width="50px"></button></abbr>
+</div>
+    <div id="gs">Game has been stopped</div>
+    <center><b id="rmsg"></b></center>
+    <center>
+        <div class="main">
+            <div id="player"><img src="Human.png" width="50px" style="float: right;">Human
+            <br>
+            <br>
+            <p class="plm">You are choosing...</p>
+            <br>
+            <div id="pchoose"></div>
+            </div>
+            <div id="comp"><img src="computer-icon-1044-Windows.ico" width="50px" style="float: right;">Computer
+                <br>
+                <br>
+                <p class="plm">Computer is choosing...</p>
+                <br>
+                <div id="cchoose"></div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <p id="plm1">Choose one option from below</p>
+        <br>
+        <div id="pc">
+            <abbr title="Stone" id="ab1"><button id="b1" onclick="play_but1()"><img src="gem-solid.svg" width="50px"></button></abbr>
+            <abbr title="Paper" id="ab2"><button id="b2" onclick="play_but2()"><img src="note-sticky-regular.svg" width="50px"></button></abbr>
+            <abbr title="Scissor" id="ab3"><button id="b3" onclick="play_but3()"><img src="scissors-solid.svg" width="50px"></button></abbr>
+        </div>
+    </center>
+    <br>
+    <div id="res"><u>Result</u><br>
+    <p id="res2"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

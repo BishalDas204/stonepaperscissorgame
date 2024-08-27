@@ -114,15 +114,15 @@ function comp_turn(){
     // 2 = scissor
     if(cg==0){
         cc="Stone";
-        console.log(cc);
+        
     }
     else if(cg==1){
         cc="Paper";
-        console.log(cc);
+        
     }
     else{
         cc="Scissor";
-        console.log(cc);
+      
     }
 
 }
